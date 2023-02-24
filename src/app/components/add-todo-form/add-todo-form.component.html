@@ -1,0 +1,6 @@
+<form class="new-todo-form" action="">
+  <h3>Add Item</h3>
+  <label for="name">Todo Name</label>
+  <input name="name" [(ngModel)]="todoName" />
+  <button (click)="submitNewTodo($event)">Submit</button>
+</form>
